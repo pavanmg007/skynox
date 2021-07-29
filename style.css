@@ -2,9 +2,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap');
+html{
+    font-family:'Open Sans', sans-serif;
+    color: rgb(66, 66, 66);
+}
 .container {
     padding: 0 15%;
     height: 100vh;
@@ -12,7 +15,8 @@
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1em;
+    font-weight: 300;
 }
 
 a {
@@ -52,6 +56,8 @@ div.img-slider img {
 
 .product .details h1 {
     font-size: 2.5em;
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
 }
 
 .product .details h2 {
@@ -59,14 +65,15 @@ div.img-slider img {
     padding-top: 1.5em;
     width: fit-content;
     max-width: 350px;
-    font-size: 1.1em;
+    font-size: 1em;
+    font-weight: 600;
 }
 
 .product .details p.description {
     line-height: 1.5;
     padding-top: 1em;
     width: fit-content;
-    max-width: 400px;
+    max-width: 500px;
 }
 
 .rating {
@@ -97,18 +104,13 @@ a.review:hover {
 
 .buttons {
     padding-top: .5em;
-
 }
 
 .btn {
     padding: 10px 20px;
     margin: .2em;
+    border: solid #000;
     font-size: 15px;
-}
-
-.btn:hover {
-    padding: 8px 18px;
-    transition: ease-in-out;
 }
 
 .btn1 {
@@ -118,7 +120,6 @@ a.review:hover {
 
 .btn2 {
     color: #000;
-    border: solid #000;
 }
 
 .features {
@@ -145,7 +146,7 @@ a.review:hover {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 768px) and (max-width: 1080px) {
     .container {
         padding: 0 40px;
         height: 100vh;
@@ -160,7 +161,9 @@ a.review:hover {
         padding: 30px 0;
         flex-direction: column;
     }
-
+    .product .details {
+        margin-left: 0;
+    }
     .container {
         padding: 0 40px;
         height: 100vh;
