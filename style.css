@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.container{
+    padding:0 15%;
+    height: 100vh;
+    width: 100vw;
+}
+p{
+    font-size: 1.2em;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+}
+
+.product{
+display: flex;
+width: 100%;
+padding: 30px 0;
+}
+.image img{
+    width: fit-content;
+    max-width: 500px;
+}
+div.img-slider{
+    display: flex;
+    width: fit-content;
+    max-width: 500px;
+}
+div.img-slider img{
+    width: fit-content;
+    max-width: 100px;
+    padding: 5px;
+}
+.product .details{
+    margin-left: 2em;
+    padding: 2em;
+    width: 100%;
+}
+.product .details h1{
+    font-size: 2.5em;
+}
+
+.product .details h2{
+    line-height: 1.6;
+    padding-top: 1.5em;
+    width: fit-content;
+    max-width: 350px;
+    font-size: 1.1em;
+}
+.product .details p.description{
+    line-height: 1.5;
+    padding-top: 1em;
+    width: fit-content;
+    max-width: 400px;
+}
+.rating{
+    padding-top: 2em;
+}
+.fa-star{
+    color:rgb(0, 199, 123)
+}
+.review{
+    padding-top: .8em;
+}
+.review span{
+    color: rgb(0, 199, 123);
+    font-weight: bold;
+}
+a.review:hover{
+border-bottom: solid black;
+transition: 1s ease-in-out;
+}
+.price{
+    padding: 2em 0;
+}
+.buttons{
+    padding-top: .5em;
+    
+}
+.btn{
+    padding:10px 20px;
+    margin: .2em;
+    font-size: 15px;
+}
+.btn:hover{
+padding:8px 18px;
+transition: ease-in-out;
+}
+.btn1{
+background-color: black;
+color: white;
+}
+.btn2{
+    color: #000;
+    border: solid #000;
+}
+.features{
+    display: flex;
+    margin-top: 30px;
+    width: 80%;
+    justify-content: space-between;
+}
+.single{
+    display: flex;
+}
+.single img{
+      width: 25px;
+      margin-right: 10px;
+}
